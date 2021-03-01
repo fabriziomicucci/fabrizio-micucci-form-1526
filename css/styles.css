@@ -1,0 +1,61 @@
+
+#masthead {
+    background-image: url(../images/sunset.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.main-content{
+    background-color: white;
+    padding: 3em;
+    
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+}
+
+form{
+    background-color: gainsboro;
+    padding: 1.5em;
+    max-width: 50rem;
+    margin: auto;
+
+}
+.box{
+    width: 100%;
+    display: inline-block;
+    margin: 1em 0;
+}
+#submit-data {
+    background-color: dodgerblue;
+    padding: .5em;
+    color: white;
+}
+.emailbox {
+    float: right;
+}
+input[type="text"]{
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    
+}
+
+
+@media (min-width:25rem){
+    
+    form{
+        background-color: gainsboro;
+    }
+    .box{
+        width: 50%;
+    }
+.messagebox{
+    width: 100%;
+}
+    
+}
